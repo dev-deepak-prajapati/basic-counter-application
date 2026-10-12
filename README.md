@@ -1,16 +1,41 @@
-# React + Vite
+# Basic Counter Application 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, modern, and responsive Counter Web Application built using **React** and **Vite**. This project serves as a clean demonstration of React state management (`useState`), event handling, and modern UI styling.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19.x-blue?style=flat-for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-Fast-646CFF?style=flat-for-the-badge&logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-for-the-badge&logo=javascript)
+![CSS3](https://img.shields.io/badge/CSS3-Modern-1572B6?style=flat-for-the-badge&logo=css3)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Increment / Decrement:** Easily increase or decrease the counter value with intuitive buttons.
+* **Reset Functionality:** Quickly reset the counter back to zero with a single click.
+* **Responsive Design:** Optimized for seamless viewing across desktops, tablets, and mobile devices.
+* **Lightning Fast:** Powered by Vite for instant Hot Module Replacement (HMR) and optimized builds.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend Library:** React (Functional Components & Hooks)
+* **Build Tool:** Vite
+* **Styling:** CSS3
+* **Language:** JavaScript (ES6+)
+
+---
+
+## 📂 Project Structure
+
+```text
+basic-counter-application/
+├── src/                 # Source components and styles
+│   ├── App.jsx          # Main application component
+│   ├── App.css          # Component styles
+│   ├── main.jsx         # Application entry point
+│   └── index.css        # Global styles
+├── index.html           # HTML template
+├── package.json         # Project dependencies and scripts
+└── vite.config.js       # Vite configuration
